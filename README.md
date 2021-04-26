@@ -104,6 +104,7 @@ BDB_PREFIX=$(pwd)/build
 ../dist/configure --disable-shared --enable-cxx --with-pic --prefix=$BDB_PREFIX
 sudo make install
 ```
+```
 Step 3: Build the Coin
 ./autogen.sh
 ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/"
