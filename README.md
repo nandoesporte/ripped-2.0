@@ -3,7 +3,7 @@ Rippedcoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/rippedcoin-project/rippedcoin.svg?branch=master)](https://travis-ci.org/rippedcoin-project/rippedcoin)
 
-https://rippedcoin.org
+https://rippedcoin.com
 
 What is Rippedcoin?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Rippedcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Rippedcoin Core software, see [https://rippedcoin.org](https://rippedcoin.org).
+the Rippedcoin Core software, see [https://rippedcoin.com](https://rippedcoin.com).
 
 License
 -------
@@ -84,6 +84,7 @@ Dependency
 
 # 
 sudo apt-get update  
+```
 sudo apt-get install build-essential
 sudo apt-get install autoconf libtool pkg-config libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libevent-dev libqt4-dev libcanberra-gtk-module libdb++-dev
 Step 2: Install BerkeleyDB using below commands (If not already Installed)
