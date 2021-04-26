@@ -95,6 +95,7 @@ sudo apt-get install autoconf libtool pkg-config libboost-all-dev libssl-dev lib
 ```
 Step 2: Install BerkeleyDB using below commands (If not already Installed)
 ```
+```
 wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
 tar -xvf db-4.8.30.NC.tar.gz
 cd db-4.8.30.NC/build_unix
