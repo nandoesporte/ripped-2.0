@@ -84,7 +84,6 @@ Dependency
 
 # 
 sudo apt-get update  
-
 sudo apt-get install build-essential
 sudo apt-get install autoconf libtool pkg-config libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libevent-dev libqt4-dev libcanberra-gtk-module libdb++-dev
 Step 2: Install BerkeleyDB using below commands (If not already Installed)
@@ -99,5 +98,4 @@ Step 3: Build the Coin
 ./autogen.sh
 ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/"
 make
-
 ```
