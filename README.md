@@ -82,7 +82,7 @@ pull from Transifex would automatically overwrite them again.
 Dependency
 ------------
 
-# zcore.conf
+# 
 sudo apt-get update  
 
 sudo apt-get install build-essential
