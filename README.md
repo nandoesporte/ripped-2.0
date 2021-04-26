@@ -86,8 +86,12 @@ Dependency
 ```
 sudo apt-get update  
 ```
+```
 sudo apt-get install build-essential
+```
+```
 sudo apt-get install autoconf libtool pkg-config libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libevent-dev libqt4-dev libcanberra-gtk-module libdb++-dev
+```
 Step 2: Install BerkeleyDB using below commands (If not already Installed)
 wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
 tar -xvf db-4.8.30.NC.tar.gz
